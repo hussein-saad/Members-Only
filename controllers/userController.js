@@ -1,23 +1,41 @@
 const User = require("../models/users");
 
-
-exports.userSignupGet = function (req, res, next) {
-    res.send("NOT IMPLEMENTED: User signup GET");
+exports.userInfo = function (req, res, next) {
+  res.send("NOT IMPLEMENTED: User info GET");
 };
 
-exports.userSignupPost = function (req, res, next) {
-    res.send("NOT IMPLEMENTED: User signup POST");
+exports.userSignupGET = function (req, res, next) {
+  res.send("NOT IMPLEMENTED: User signup GET");
 };
 
-
-exports.userLoginGet = function (req, res, next) {
-    res.send("NOT IMPLEMENTED: User login GET");
+exports.userSignupPOST = function (req, res, next) {
+  res.send("NOT IMPLEMENTED: User signup POST");
 };
 
-exports.userLoginPost = function (req, res, next) {
-    res.send("NOT IMPLEMENTED: User login POST");
+exports.userLoginGET = function (req, res, next) {
+  res.send("NOT IMPLEMENTED: User login GET");
 };
 
-exports.userLogoutGet = function (req, res, next) {
-    res.send("NOT IMPLEMENTED: User logout GET");
+exports.userLoginPOST = function (req, res, next) {
+  res.send("NOT IMPLEMENTED: User login POST");
+};
+
+exports.userEditGET = function (req, res, next) {
+  res.send("NOT IMPLEMENTED: User edit GET");
+};
+
+exports.userEditPOST = function (req, res, next) {
+  res.send("NOT IMPLEMENTED: User edit POST");
+};
+
+exports.userDeleteGET = function (req, res, next) {
+  res.send("NOT IMPLEMENTED: User delete GET");
+};
+
+exports.userDeletePOST = function (req, res, next) {
+  res.send("NOT IMPLEMENTED: User delete POST");
+};
+
+exports.userLogoutGET = function (req, res, next) {
+  res.send("NOT IMPLEMENTED: User logout GET");
 };
